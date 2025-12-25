@@ -45,3 +45,19 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+.home-section {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.home-image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 6px;
+}
+
+.home-text {
+  flex: 1;
+}
