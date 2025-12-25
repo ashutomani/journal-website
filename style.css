@@ -52,9 +52,13 @@ footer {
   margin-top: 20px;
 }
 
+.home-image {
+  flex: 0 0 180px;   /* fixes the column width */
+}
+
 .home-image img {
-  width: 100%;
-  max-width: 180px;
+  width: 180px;     /* exact image size */
+  height: auto;
   border-radius: 6px;
 }
 
