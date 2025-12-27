@@ -65,13 +65,24 @@ footer {
 .home-text {
   flex: 1;
 }
-.journal-header-left {
+.journal-header {
     display: flex;
     align-items: center;
-    gap: 15px;
-    padding: 15px;
+    padding: 15px 20px;
 }
 
-.journal-header-left img {
-    width: 120px;
+.journal-logo {
+    width: 120px;     /* adjust if needed */
+    margin-right: 15px;
+}
+
+.journal-title h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.journal-title p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #555;
 }
