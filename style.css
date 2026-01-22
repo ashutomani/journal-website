@@ -91,4 +91,16 @@ main h2 {
     text-align: center;
     margin-bottom: 25px; /* optional spacing below heading */
 }
+.editorial section {
+    margin-bottom: 18px;
+}
+
+.editorial h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.editorial p {
+    margin: 6px 0;
+}
 
