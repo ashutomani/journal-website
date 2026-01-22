@@ -86,3 +86,9 @@ footer {
     font-size: 15px;
     color: #f5f0dc;
 }
+/* Center the Editorial Board heading */
+main h2 {
+    text-align: center;
+    margin-bottom: 25px; /* optional spacing below heading */
+}
+
