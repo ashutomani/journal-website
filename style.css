@@ -125,3 +125,17 @@ main h2 {
     color: white;
     white-space: nowrap;
 }
+/* Top ISSN Bar */
+.top-bar {
+    background: #001f4d;
+    color: white;
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+.top-bar-content {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    text-align: right;
+}
