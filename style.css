@@ -139,3 +139,7 @@ main h2 {
     margin: auto;
     text-align: right;
 }
+.top-bar {
+    background: #002b5c;
+    border-bottom: 2px solid #f0c040; /* gold accent */
+}
