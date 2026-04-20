@@ -104,4 +104,24 @@ main h2 {
 .editorial p {
     margin: 6px 0;
 }
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.journal-logo {
+    height: 70px;
+}
+
+.journal-title {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.issn {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    white-space: nowrap;
+}
