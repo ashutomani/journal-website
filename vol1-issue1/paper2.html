@@ -1,142 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-     <style>
-/* Only affects logo on index page */
-.journal-logo {
-    height: 55px;
-}
-</style>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Predicting Diabetes Using Machine Learning Approaches | JAIB</title>
-
-<!-- Google Scholar Meta Tags -->
+<!-- saved from url=(0062)file:///C:/Users/user/Downloads/jaib_paper2_master_format.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Predicting Diabetes Using Machine Learning Approaches | Journal of Applied and Integrative Biology</title>
+<meta name="description" content="Diabetes mellitus is a chronic metabolic disorder and a major public health threat, especially in developing countries like India. Early detection of diabetes may be helpful in preventing long-term complications including cardiovascular disease, nephropathy, neuropathy, and retinopathy in patients. ">
 <meta name="citation_title" content="Predicting Diabetes Using Machine Learning Approaches">
-<meta name="citation_author" content="Ratna Rathaur">
-<meta name="citation_author" content="Shivam Pandey">
-<meta name="citation_author" content="Ashutosh Mani">
+<meta name="citation_author" content="Ratna Rathaur"><meta name="citation_author" content="Shivam Pandey"><meta name="citation_author" content="Ashutosh Mani">
 <meta name="citation_journal_title" content="Journal of Applied and Integrative Biology">
-<meta name="citation_volume" content="1">
-<meta name="citation_issue" content="1">
+<meta name="citation_issn" content="3139-1567">
+<meta name="citation_volume" content="1"><meta name="citation_issue" content="1">
 <meta name="citation_publication_date" content="2025/12/26">
-<meta name="citation_pdf_url" content="https://yourdomain.com/articles/paper2.pdf">
+<meta name="dc.rights" content="CC BY 4.0">
+<style>body{margin:0;background:#f4f6f7;font-family:Georgia,serif;line-height:1.6;color:#222}.page{max-width:1000px;margin:28px auto;background:white;box-shadow:0 2px 18px #0002}.top{display:grid;grid-template-columns:90px 1fr auto;gap:18px;align-items:center;padding:22px 34px;border-bottom:1px solid #ddd}.top img{max-width:75px;max-height:90px}.meta{text-align:right;font-size:.88rem}.brand{text-align:center;padding:15px;border-bottom:1px solid #ddd}.brand b{font-size:2.4rem}main{padding:30px 55px}h1{font-size:2rem;line-height:1.2}h2{border-bottom:1px solid #ddd;padding-bottom:4px;margin-top:1.8rem}h3{font-style:italic}p{text-align:justify}.authors{font-weight:bold}.abstract{background:#f7fafb;border-left:4px solid #175c75;padding:16px}figure{text-align:center;margin:26px auto}figure img{max-width:100%;max-height:560px}figcaption{font-size:.9rem;color:#666}footer{text-align:center;border-top:1px solid #ddd;padding:16px;font:12px Arial;color:#666}@media(max-width:700px){.page{margin:0}.top{grid-template-columns:65px 1fr}.meta{grid-column:1/-1;text-align:left}main{padding:22px}}.results-figures{margin-top:1.2rem}.results-figures figure{margin:1.4rem auto 2rem}
+.brand b{font-family:"Rockwell Extra Bold",Rockwell,Georgia,serif!important;font-weight:900!important}
+.brand div{display:inline-block!important;border-top:1px solid #333!important;border-bottom:1px solid #333!important;padding:4px 10px!important;margin-top:7px!important}
 
-<link rel="stylesheet" href="../assets/css/style.css">
-
-<style>
-.article-container {
-    max-width: 900px;
-    margin: 30px auto;
-    background: #fff;
-    padding: 25px;
-    line-height: 1.7;
+.brand .subtitle-lines{
+    width: 72%;
+    max-width: 680px;
+    margin: 10px auto 0;
+    padding: 5px 0;
+    border-top: 2px solid #222;
+    border-bottom: 2px solid #222;
+    text-align: center;
+    line-height: 1.25;
+    color: #333;
+    font-size: .9rem;
 }
 
-.article-container h1 {
-    font-size: 26px;
+
+/* Paper 1 content compatibility while retaining Paper 4 format */
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 24px;margin:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:15px 0}
+.doi{margin:12px 0 20px}
+.doi a{color:var(--accent);text-decoration:none;font-weight:700}
+.abstract{background:#f7fafb;border-left:4px solid var(--accent);padding:18px 22px;margin:22px 0}
+.keywords{font-size:.96rem}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+th,td{border:1px solid var(--line);padding:7px;vertical-align:top}
+th{background:#eef3f5}
+.references li{margin-bottom:.6rem}
+.license{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+figure.narrow img{max-width:430px}
+.table-caption,figcaption{font-size:.92rem;color:var(--muted);margin-top:8px;text-align:center}
+@media(max-width:720px){.meta-grid{grid-template-columns:1fr}}
+
+
+.brand b{font-family:"Rockwell Extra Bold",Rockwell,Georgia,serif!important;font-weight:900!important}
+.brand .subtitle-lines{
+    width:72%!important;max-width:680px!important;margin:10px auto 0!important;
+    padding:5px 0!important;border-top:2px solid #222!important;
+    border-bottom:2px solid #222!important;text-align:center!important;
+    line-height:1.25!important;color:#333!important;font-size:.9rem!important;
 }
 
-.article-container h2 {
-    margin-top: 25px;
-    border-bottom: 2px solid #003366;
-    padding-bottom: 5px;
+
+.brand{
+    text-align:center!important;
+    padding:17px 20px 14px!important;
+}
+.brand b{
+    display:block!important;
+    font-family:"Rockwell Extra Bold",Rockwell,Georgia,serif!important;
+    font-size:2.35rem!important;
+    font-weight:900!important;
+    line-height:1!important;
+    margin:0 0 3px 0!important;
+}
+.brand .subtitle-lines{
+    display:table!important;
+    width:auto!important;
+    max-width:none!important;
+    margin:0 auto!important;
+    padding:4px 0!important;
+    border-top:2px solid #222!important;
+    border-bottom:2px solid #222!important;
+    text-align:center!important;
+    line-height:1.25!important;
+    white-space:nowrap!important;
+}
+@media(max-width:720px){
+    .brand .subtitle-lines{
+        white-space:normal!important;
+        display:inline-block!important;
+    }
 }
 
-.authors {
-    margin-bottom: 10px;
-}
 
-.affiliation {
-    font-size: 14px;
-    color: #555;
-}
+.meta-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 24px;margin:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:15px 0}
+table{width:100%;border-collapse:collapse;margin:1rem 0;font-family:Arial,sans-serif;font-size:.9rem}
+th,td{border:1px solid #b9c3cb;padding:8px;text-align:center}
+th{background:#eef3f5}
+.table-caption{text-align:center;color:var(--muted);font-size:.92rem;margin-top:8px}
+.license{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+@media(max-width:720px){.meta-grid{grid-template-columns:1fr}}
 
-.download-btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 18px;
-    background: #003366;
-    color: #fff;
-    text-decoration: none;
-}
-</style>
+</style></head><body>
 
-</head>
-
-<body>
-
-<header class="journal-header">
-    <div class="header-flex">
-        <img src="../logo.png" class="journal-logo">
-        <div class="journal-title">
-            <h1>Journal of Applied and Integrative Biology</h1>
-        </div>
-        <div class="issn">ISSN: 3139-1567 (Online)</div>
-    </div>
+<header class="top">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAABmCAIAAAABAIsSAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAOxAAADsMB2mqY3AAAINNJREFUeF7tXAlgE+W2nkkme9o03SmU0n1naZF937FsIlARQdxAAbm43KuCSEFBFlGQ5SIKKgKyIyIgewFLWyilLW3pvu9pmj2ZTGaSdyZTSmhLm0LVd+97QwjpZOaf8/3nnO8s/19Qs9mM/PceKIoy4FidghFFYMDGETtlwE4fpBNw0ghRhDSTnS5cJw74tDgZNf5acuJA3g+IBfB2TKuMIfwFtvBUOEE+PanfmfnlzozN5eqSjk4/YwiE2QQ3/tlQnxwnSKYxab5M++xs0QkOipkRs9nSAUqzzpHuYMHeVSnvrk/7JLMh/U+F+oQ4GU1uy9iYXHWDh/HZKFtBKEgLab/ZUhZqf/63h/P25MjTEyovbb4bV6Qu+POgPglOkIaykHvu7wCQfI4ARVjwatDXa00aO00XRpDj9YnV8XyWgIvy+CxRra4msfqGnbc/wWVPghMec6b010tlv3PYXKAeC/1YWr0yQ539ErBQFsbimC0IGDu8UAQT8cTW21tnMtqXO8Zxj8jSYZygilJtyYnCn9kgKJtjtTQLvBvNeJmuzF6cFsSV7xYh6Ks0qA2UEUcIASImi1AjTljxPAIIfrCeYf59QnJmr1q1yl7hHly3N+ffuYosDOM785wNhB5UAhIAbboLvfq692t1tEYBHwCAH6sqqlR5urCgcCNJOCNui/q+46hxvhp/VafXubm5cTj0DDZiQtFrxcrPr5UdT6vWmaieXcT2K7ZpyjqGE27LU+X+nL8XkIm5jgJUoDIqmbHA+oCQhnuNAk5qBtX6PVqhxDkshIOxaaLWaC9fvjRu5Lj+PoMGSIcieZxRfUd39fbq7uNdVFSUknJH3tDA5XJEIhGLxTqbJ3/ux3tJufL0UtWJe3VcHnuor9RO3TTh7LDdxtdcBFcEv/Lke+lMGvTBAACvUlehNqla+hdJISt/L+y5+dbYXXdKGvSI2XT+woVn+vVzcnECcZ0kTqiF1dDQAJ+dnZ0nTpwwddoURwdxQsLNkydPnjt/afXZbJ2BRPlsRIDB4F9dK6lS4R1l5g7gpPVAqNPqbwOFcDCuE0dioAyM21gdCNUa1dXayhbKRJUGYnN8iUKrTyiQv3Awo6ReG92nt5+fr8V6wPVSF6e6Ghl8YM44Ojj07dt31qyZgDkwJKTBSOdZYDDwNXxQ6k11OsJOfTZd1gGccA8wTYOhHj5IuE4OXAkoFjiIHssCBQGLsJgqdBUtJXDkc2KCpQhlAYUkFzSsuFLh6+dne1loYGhVdTVt3I/SDJi3orYqkG9ESOuMgBXhpLeE5+Mk+HNxVmhLCcpEIRZXgRsoAnJ3eLeqhJYRCEllUjeJ2yQ0F2Pte6lXPz9nGiqPfTClcldiadNlcNcV+dVvS3avOL88teoOnFep1MnJtw8fOZaUfAt0+/WsvsNC3GiyIykPqWDjpCCpkMMYgv0Han/9CXIfKTz4U94ekGyE11iWGb1Ydo6H8R7k7iiOmOaHvBbl/GxKdT5iJgiCpTG4kDjPbKZ4LMuVwoYTuQ1AUhazxcOBc2vpIEezXq5Qxcuv7UzeTlGkyUR4OXWd6/2yE+Hs6uYChu3p6cEgqVFotp28EdY7qr+PY4CL0H6QTW78WJy09A/CGDMu3HOw4EeoS+CH6b4vqAyKi2VneWx+U7AwotSiiCW3yz3WJR4UcQxGUmusikSqwhDCiEDVJuQgEiEi5NLDGomPJwUvjhBe+yPhp6r9NZYaoDF4itaknRo8fe2U1UCzDEI4Cc8tLymuqSh7ZsjwxlN267Etvm20t0a/a0TI3IChmJUrzKBGAdboJLTpWuMKG8VceO4BYumCyFGvR058q/fEVwZFzhrZdcao7jPH+M4e5hMT6U6LT5kRNnowtVLs0S02NrZHd1+CICkSoSgE3lkWwPgQJIOouKzc3duXgf3ASzqWM2C2U8OAMRCGe1X3MqoyyhrKVEaVROAQ5B7U32dAoFuQC88NYoDZTFKUScxxoCkQiMhKRWYL5cCT+Ev8B3l6zENCWp1x8JHI9TeyqzUIhhTL9PG5tZPCPSYGTUgqvK3Uq2BQL4lnCC/411/O+Ph6h4eHYRgjnoXUqd1dXWzHpCgqv7A0JMiPkbldS36IE27ASfxk+qlTqacK6gsNpIHDZoONGSg9m416SN2nhk+N6B7JQbgEaVLhygCnIBbKNlss9OSjqMlMhkpD3XiuME00M9J/4SRGxwL4/MAIfSW87DJILVgWkkwpUwLOmMhnS4rLkmvueHl0md5rSr8efeX18rT09KNHjoWHhUp7BB1Mr1Y0CAbz+E04QdQrN5I+WfvVmOEDX31plm8PbzjTNtRG/4TratS1K35ZGZ8LNQSfC3kXG5MKJZ5STw8nD8KC58iyq/WVQV2DTRhupIy9PPq8GDpvZfJyE0Ww6SYTakYty/uuTiwqSyi7wGfBdCMKQpAhG6xXebAgKpgsFhL0biHMZiNlpqUiqTdH+v/7hV5Qtl44e2HYiKFCsdBWY/L6+us3b8flCzOUGMJlbxzf45/9PBl31er0ry9bnp1TgKGop4fLnBlTp0+ZKBDwW0Jt7p9gfkKucHTwqAjPSJIEG0QtlEWpVhZXlRSWFUhZ0lf6vvFCnxfr9LV6Qg/AKtTljlxJF5EXZeVrgwUf2HWQI8v/99wSud5RhTtqSRFpZvExnMOGsUg2SnFYFAuhTCQ4sjUSmi24iW4pFRQUcPhcBiSTJzCHi6vrwHETsgxccFmEIC8XKawg6anYf/TUvew8oAmvrp4w4Ne7f/rXyg16vaGNJOkh3zIX1Wvk38bvPXTrMGiIh0GYMlNmiiAJT0mX14a96urusiv9az2phZLz4wGrCzVF+3L2gjJdBM5fDNniwe2uMOjBJkFdtMZo5wXNwiNAkyiQS1mDfvzXyQqtEYEUmCDfjQnZ/HzkiRMnhw4dArl7M22ANDhlmXsy71hqDYvH/veUwAVRniBhaXnV3EX/bFAonKWSxa/N2/X9wcrq2knjRn7+yXtghs14oRW+ZWbR1cHlo8n/jJu2Ush30OB6ygIJLAYJeq2qdv2ZTWqZZm7EK5D3EBSRXJ043GsEEC+LzV7S8x1vkQ+Xg3o4itwdBG5ioatI5CYSwwdPicBLKuwiFXhIBLl1ehWdsoEyzTBTfbpJVQo5T8hvCZLWLYLwMdb3U/yPvBh2fl7kgqjGWPr9wRMNDUqY3NhpMWmZ2ZU1tc7OkkWvvcjjcpuTn00q0Ur8ZOYgtTRt/elNd0rucjEul80GrifNlIAjWBu7+kDZ3gpdmYQn3TJsx/Gyo74ivxGeo37KPAwVlsWMggJxkq0yusiUPiSO0TmQ2QwdBzDVhMKG8no9yoJGktlZws1YOSHr/pVgnzAfr+6PYxEbU6Srv4Tk1HdWrDXghj6RYdNixq7etMNgMCx+/aV/LHi5Fee0EiQDvvU8gRldqVMduHnolztnyuXlBpIuEXDSMLXPlKjo4GMFP5tR8zTf55f0fgcArPnjq9P55yD0WSgWSaEGilWr76auGIboeZCaQr4G9RidCbPpFwoJkZFYOC5ozTSPW8WpMZGTaN09/miCihuJeW+9n52Tz+NxV7z31skzl5PvpAcF+O7bvsHZ2akNEnoszsY5sKKVaeR3SzPyqvMVepWAy/d369HTL/SDxGVaUi3giDYO2trDISCpIg06RhBMwA9pikFQkhQajU50pwFSWox9MKlif2J5Y3AhSamQdX3FCA3vXqA4wpXv2k5IQFGaWjnY+cvXT565oFAqx40a6uvjs2PPfrhxzUfLpseMbRtkOzjprx/Ted6ZsfWX4sNsFhbh0mttv01c7GFwa6mYpPz62B23yhQ4RE2anEhq5/yohaN9lITWmevcLsiUtHvvrlgHkUqr1Tk6OgD9TI0Zd+TU7yWl5YP699m1aQ1U5M05rEXHoWN5PDMcGBK0vN7/Y4kMryMR8nm/2IXhb6dXldwsT+dxoJFr0eJuBo0LCvmdGdEbyW+uFNQBSC5ksGYEN709KeTruVHMdLQL0mQi33p/VfKdu5AbkSbSgBsdxCIPd1eBQGA0kZ9+uDS6V7jtII8LLR3AaasoGO5syW9b0jdAzkQh5sXhbz/jPG7Ruc8TKtNxC6KujUCqoiHhpckHZgbCOcYC7kGMpnmj/Ha/1o/HAc22X1jRT7l4bcXazUCDEKgljo6+Pt2ycvJ1OgO46LNjR3y2fJntZLURPzvWH2qCCiP6SfwrtRWF6jwOC0uTpYY6+y+MeinSI2ii37DnwgaOCu1eWq+X6QgUGlosyBQskKe//WzQjlf6QjlqJ0iVWhO3aZu8gW5BQRNj9YdL31v0qkqru5uRBbDBOiaMHsbn8Wylehyddayf0DQKCAqV1FuRb4dIwyGthwTqy/QNafLEqcGDYyMGj/YLSM6VF9RoaWVCVY6buBj6xdw+X78czWHbBZJ50P6jv+bkFbLZbEjxScpsJEyQ8dXJ5BDkIFrmF5acvXCtLaa2+e4J7baJkGGxYHXKRzJ9HUwY0NJb4Usm+Dz3/OYbJy4XI9DdAMI2mLw9xdtei5oa3a1dh7TVTEl55fwlHykUCuAUgMrn88EJHMUiSAwwiOcoKhQJd2z4pFd4SBNrtIH5Ce22aURnvoufQ2By3U2cohu5d+pugTPO7jOiQIUXlsmBh2IGeB9YMnBwsFt7pPOIkIBt0449aRnZGMYmCNP4saODAvzSM7PBLb26eIqEQoqyzJ4eM2X8qCYXaMM5YeinxQlDeIq6BDr53a67jRMGtoV1p/aWSKhfOT4GsQjG9HLf/kq0u4TffoFoa2MoeiPxzo69BzA2pMdmDw+PyRPHXLh8zdPdVcQX1NTWgxWLhcKYccMDfLvb45ztx892rZ/pQeMmpEBz5/Nba+R6OQfl6kzagV37L4v+0I3f1X5bbfIFHDe+8c7Ke9m5HC5GktRbr87JLSjOysoBLiosLvVwd1NrtEYj3r2r144v1gT6+dhjt0/IQ00yAchfUiv7xV1Iz/b8dOA6T2FXnVHPRwQJpYnvXH47pTqZngb71wms45747QIk6BwORpjIiNCAAdGRqekZIqGgorJq2cL5J/ft/GrtCi9Pj5LyqkPHTzfZbdsc/uQ4Gem/OpfzwvaEe0UN8/ck/pYo/iD60x6OAVDo8M3CCnnFxoTPfs391X6odLlfJ/vx5xNAMxA3IGy+Oe8FRYNKq9ERJOnbvdvCV190dZGOGjpgzPBB4AvZuQXgvfbM4xPiZIaOO5H57r40o9EC9SGJk//Yl6BRea4dtj5AEqbS6dkEF9cbf07fvytlNwmVux1aheTum+8PlVdWA6NCXxTC4+ABfU9fjDeRdKNahxshqMBz4ceK6louxBYejwWl0IOjDZU+CQ/RElss/zpwd92xTAgmdK5DWngc5Is5vaf17erIlwzuNjSnNq9IVkgYSZRCqjU1xcqK3l0ioVhtw+FhWLVa893+I1XVtVDTwsAvPj9ZpdZCvk63wkhSo9Ol3buvUKl/OHTy1p10GGras2P6R/e2J+/rME5GLSt+vrvhSAbCgWQBuhoWAQfdMLv3PyaGgkDQf3Dgi4f4DCmoK8mtzjMCR+EQ5cm7tZlR3XpBBdsGVOjxPNMnUiQSFhaX63S6rNz8q38kw0ohJEOQ6GJsrLSiMj7hVnlFNZemKFNooN/g/tG2A3ZafgsD/RhfOH/LDWgIoBw2+BB8EIh5PXtITBjl7lQa6JbB4hJ+bn7T/GevOB6XWJTIR7kuQufQHpEisdOqCf9y5IlbNTAYuay8at2XO2LGjuzWzevn46dPn79CmS0OIgGTCxMmk5EggJDAb5nuh1DA37NtfUigf7tRtGP6BFHSiuVzvrxhgIU6jGXtT1sgTYdWQ2WdqlqpKjPmk2iS3FSTo8jUkZoF/RelFWdVNlTrYKUaN0r4TrdKM4YG9odmYkutQiPrs03bf78Uf/WPRI1W+9yksUMG9quprQN3pRdvLBZ3d5dRQwaVlFXQJQG9K4Kl1migfzVy6MB2o2gH8j66n0BQE1ZfuJZaiYI7gpNS5mcH+bwyOgDIgC5MWGYOG+fzZRwuBexgspgGdB1YLa976ZsFNYoayI0CXHv4dgn09fRdMXlps7gKg2dm58178z0jYYQcSA7F9MihOzasyS8qSUxJ3XfkVL28Ye2K92dMGf/h6i/OX46XSBxhuQl8RCwSHdi9BeqYtqNox3DuuZj3+ubrCBdMlu5++HdzTNo42dWhLXYBPJfv3Xhl92KwPUjEBwX2EwulsQMmT44e3cx6oUN68eqNVZ9vbVCqnBzFu7euv3D1j8vXEha8PNvfz6esohKaekBPRSVl8xf/y8lJUl1TZzKZcBx/b8kbb8yLbRunvXYLwFQ64xtbE2RKA92ipNWBPDfUL9jbqUyur1AYypX6cpWhQqmr18oa9LX1+nq5Xgbv9QZZeLcQjRb/Iz8Fw3jFssrIbiGJmemjew2CJM7WeqEKCfDr4evjfTstc/bzUyCnW71hW1WNDJomi16b0zsyFC4AMM5Sp9yCotLyaj6fp9PByjrtvJPGjbLm9nSobpXn7NUn4Nx/KX/uhniEY1Um0A9wrZhn5rIRDhQUiAWjEHjxdN7iZA9hnYBH8jkktBotbDLcI/LNnsue37K4oLYUykYPB5co755DQ/v/Y9I8RqZmLAIdWg93l9T0rKUfflonq1/78XtzY6fZXnP24tW1m//t3c0rOycPQEIn5dgPO9xcnK3N0NZx2pUnWOOl5VhCubVJCfWtGXo8cI5u5JngM93MhNUllgVlQx+FtOhMfL1RYCAxIzTcLez02owiff7CUXMJEzQJ2WWyOoVefTntplqvldU3MAkNczAs6uPtBdXzoH5RP+zcuOqDpTOmTGimotDgQDH4pZDP4UI9ywICg5Brna/H1gt26ZNOxxSGXm+erJPr6FY6EDqftff9kUHdnemyHqiP1dgohTYtxsJhecmqcgoMzfoV6sh3xA3UoI9n1qjqoVkvFTqEegZ8NGNheUb1ucvXp08aN3xwv65edLu9ScO2kbBZJgB9hleWfCBxEOUUlIB/wpUb4z4YM2Jwy3DVNEgr/N6qfacWyGRKXaNRkFSktzR2mH8bEb+VrwTIM369Ttw+z2NzFTpNg15xLTN59jNTz1y6tmXX99u//TG6d+TEMSMG9Y9ykjgy8j0uj6M1D8v7Gi3tjrAJj6IgVWpbGHtxZpWpLLAxAVYK4WCxRBJRfHYtLJrQ0YVeSoGAZoa2JbwEbJzHAlMEMa0nUXqVFDp/TgKn/gGRJ25dgNUW0kRpCUNGYc6CkbNh+cbXu5tQJID1zISkzVKJ45iRgyeMGd6nZ3iTNpoBVqrUapUaOrqQDNIbXaA5A+tzbR724qxXGTlcNiClZ5CLxWfLrqy6RHfZATh0/DgmhIMjXCPCM7uJc724VbCmhiI4iw3rZQQ06yiLKcAtaHTX6VyMBy0sYE65Sl1KVMAiU6Cf35XrN0E/fj7dvbtG6A34b79fPXn6fERY8IRRwwYP7Av23Azw3YxspVotFAhg5wM97RgL3LVtnO3zEMNfWi0u5sHaQeNoZljSI+FlQkwm+p2CFyy7U8BMBGFWEZjKyNZDYkuacZLCTZTJZFHq1BAJIBOi4wCK6nCDTNmg0Kp79+w5J3b6hFFDa+tk1xNv1crkvr4+IcEBkBh8uWPvnAXvLlu+FnxYraUtEwAbDPjRU2dBk3oD7F6ibRuoyNPN9an1yWxUgMyDy1ZoTfTARvNrMSGzRgfT5+ldjJAJARvBEhhtuhwEx1i0OcHKE/gOvCA5tK4+cOvkGnqJ0Nrmh3a2hsQhG+zi6ZKSere+vr5vn0gAk3Q7tbKqxgHW3dxcQsKC4Nq8guLEW6lSqQRqTngdP30hPes+j8Oh59xiAYt1c3Xu0Z1usrVx2Mu3H+1JOhFflF+ts4DcRtNnCwesmPNMx3gIQQ5ePzN3+wfMBlPoUwoR7Pr6g9GB0Bk1n7t49edjpzk8HnwHNRcHwyCDhzlxEIk9XKVOjo6Q8RaXlkN5BJs26E2C1m1L8IImy3OTxq/9+N1W+95NBt++3TJg3Bx4zmKMDykBJO4okpIvq1fjsGLboDXS7zqjXEe/K/SEUk+oDbgaNygNOqVBqzJo1bhWa6RfV7OSzCaCtgjgJsrswBd5SOndFeCuMeNHf79zE1AurIW6QsSHxjQUtmyWgM9Rq9V5hYUyhcLd3Q3CGOwooOO5VSrABmwE5fjj0oMmTdirzxM3Cr87nZ1aUF+rhPCIcnkcDzdHNjyS3uyHgrFSEDO5BItv4nAqEUoI9mlBdCKW3BGT89laDINUlEzOrNTojPT+FCBoHB8a3v/Suh+49Kq51WVhj+KufVCOQBWSkprB43P7R8PuBVSlVkFp1qBU3s8r4HN5zF4/63oGotMboFjZtmEVrL48rtZjoNqLs0Kme3ndBVBDfGoVysPo8A87DXDrhnjYbgqZPPgLbMQTqRHHJEQViRBChIUjnBqUU+jAqRXzzSYDJpOB/0KKSItkMejXzv9geeybTfl3Tn7RirVbYVVCo9NyuDwPVxfYLQZFmZeHa1llVbB/D6VSWVUrgzzW+vsGFoPR6Oos/XbLumCb+rOZKzXZrX04rZ7w5uarPA76zZlcAkwXQbp6OsYOp1MFOgME88cQ2AbO4hi4/EqjrgtlwmDVmg1lGlcuEWoKqvP3X7hAmGBrilWZsAQqltz+8ph/l8aVbND2+59skCuUhYVFEDMGD3gGVo2gfIn7cOm0Z8fu+G7f9weOR/eOuHc/F4gHak6dXu/u5vbZineHD+7/uHSC4WcGuV3xk7Gqcf18z9+pGhDmcT2lAjomeg2+cEJwkLfUHjaatXYZoTZB1WolSViMML46dUYTSBjcRJpA+tKyinp6hzEXPDblbhoUC0IhH2oxAZ9PEEZZvbxrly5ZObnQJRvYr+/7S96ICA1sA6StYHbp0zoxiA4n5395s4+vZM3eZCNBIgQ1dojPuQ2TIXxZZX/o8zY/wiKoefH21d/8+hPC59EFHajTiAd3D7q+Yb+71MW2CoGW17f7Dh375UwXTzehSJyZfR9838VFSq843Mumt80gSHBQQHCgX7+oXqOHD2I2XrSNs2N22+jKKHo6qeRiaiXM9uYfb8HeJYD6+dKhH86mF21bzaFh59jSb9Z+c3IfwuFCSKBBmoxiseTCur0Dg3q3agg1tbIvtu++fC3RWgCwoIUJHQYoX9gsNlgsn8f9duv6yPBW9tV1Ag891BSKrtyTFNBNcvhq0bnLeRD7eVzO4TUTpg7pYQ1fjVplZhFynTe3rTpy+RTChahIp6GgSaHQ4eDHXw31j8rMyYO+FtgqtLaAi+l0HLgVQSDL+e6nI2q11lo30/k6EyqtRReCG43DBvbbsmFVy61Cj5vrDvCtLU65yvD5/uTR0T2Wf5uUllENmb2zq8ORNeNHR3nZdi7uFGYv3fHpzdSbiEBoFdeMGPTdvf1/+GCjN8/t/bj10BFgylpY2zRD/ksXtvQfgCrgQ/eZ3srAkAiDku4b0EUgve8tuk9PWEeCDxweF/QMdQT0h16fFwuO3UyrT2K3TdZbVqM+Hp8TFeK1aFN89v06hER8Ijxv7XzO3bqdG4TdfvrAmgM75LIahOmMEDicjRk2cetby2uKaj9Zv6VGVg+G0MiEGJsLC0bwuzCwogLvGMYCjwcMcJLetsSC89Yz8AGDd3o8gv41F1rd9PdsMIqEpNuxz8V89N7iZlp9cpxWTkKLq1QZ+TIvd/H8Ty9CFvbx6wNmDKO3vKcV3f/4xy1nEi7SJRvGQSD7IU3dff0/mfP28/3GHDp6evdPh6FnbWt1jLgP3pgyi1Ya3ZG3+qgVI726YO0qgg1YN3/CTY2/fwCPQuvq6qFXtPy9xXNmTrWF+lQ4Gag19TooRKAgdXYQiQTsWmX9rtOHtv7yowLUCFkLVDAWS48egQsnxc4ePrm2RPb1dz+kpGXCQi1oqdGVm/yO6ZfQtmk1UHpLFdQG1pUTeNID87XmF2CkNE7rhh/Ge+kDrACSZNhgs/6Tf44e/rCx8LQ4GQEYw9MZdXvOn9z264GC/CwECkLYTiNyHBTaZ96EaaMiB1QW1xw6cebSHwnAN6BGkBTEt6qKVhjzh3Zg6+9uWGmbdsemwZkZAc+EwwSWAJtJ4bD2gawzQGvbOhZt2kDOUkeH7ZvWRPUKb/Kyxg/2/x4Ac4OtEEqt+uCV374+9VNuNvyeAsp2cYvwCRoaFjVl4Ki+/uGF+SXHfzufnn0fltm7eXVxhL0FYpGDUASxAQpRCBXAN8AccICUEPrhYES3qovOYGGRl2Yp2OhBksC0UIIbDNADJuAv0DIYKry0egNszoCOkUKp0uuhj9oQHhJ06uA3zebL3jyhGcic8iJAuO/3E6XlxVJ3j0ER0QOCe43s3b9PQJjQutFFqVTVyOSAROokgVWQBzvAm4bpzA8wEbD1D2ZBq9NV18igghs7YnA7+rQ1mM6U5e8ey9768++W82mf//84n3YG/5fd3xi6Wv0nM66RnluTOTwus+mmNi98cPPMI4885MjMNmbiwbVtXmR7fzh9zIw7kvlQqEee9t9it1n0cTRuVkRExKyjrUzgfwvOh9Cyjs6KWJ3VHOp/KE6wUfoIb92vso4eawG0Lf+0ftea7zVzNet1Nq4EQjQTwNaZbZ7Y2tgtLm1HgNZcuOXjOk2fR482uUX4zFUzwx41nNZmuJMIOewxSn10+E7CmbV6tQ3MGbRV/TVAs46uPtrcRsPjDq9qbtCdgzPr2MOHhc+cAQ/5k4EencWk/Ciwqy1MJrS0QNlJ/59US5h/OtDHGH1WdlZ2dgsOgos7Q5+2MJGsuAhmpluEsay4h7bdSb7Zchgmhv4pceURmG0CsOGqpwT6kPAzW+HbrLjY5kifXp+PGK1NLthaROo8oE3zBOTeSnbagt+fGmdrvtkoRPiM5mEU6XyggKgF4bZmLE+TJ7Q0GchTGrP1zLjHZSsIE8U7N49vDq15JvPU+mwWJm24LjurNeJ7Sse07/bwuFXN4nf7OP9Gce0D1fwqMKmWEbR9nE/2sL/4Lqb8ZOrP1hiYaZi2ddiXJrc3yt/+fVv6zFoNIb+1qjUsrI0+w1+sSTsf9yR22yJ3tfNZf+dlHcYJXm530+bvBNbs2R3A2dhn+k9ECQsZzDrEf/3RAX3+R8/F/+P8j1ZfC+H/r+jzfwCEEWuMJRq06QAAAABJRU5ErkJggg==" alt="JAIB logo">
+<div>
+  <div class="journal">Journal of Applied and Integrative Biology</div>
+  <div class="issue">ISSN: 3139-1567 (Online) · Vol. 1, Issue 1 (July–December, 2025)</div>
+</div>
+<div class="biblio">www.int-bio.in</div>
 </header>
-
-<div class="article-container">
-
-<h1>Predicting Diabetes Using Machine Learning Approaches</h1>
-
-<p class="authors">
-Ratna Rathaur, Shivam Pandey, Ashutosh Mani*
-</p>
-
-<p class="affiliation">
-Department of Biotechnology, Motilal Nehru National Institute of Technology Allahabad, India<br>
-*Corresponding author: amani@mnnit.ac.in
-</p>
-
-<p><strong>Received:</strong> 12 Nov 2025 |
-<strong>Accepted:</strong> 22 Dec 2025 |
-<strong>Published:</strong> 26 Dec 2025</p>
-
-<h2>Abstract</h2>
-<p>
-Diabetes mellitus is a chronic metabolic disorder and a major public health concern. This study applied machine learning techniques to predict early diabetes risk using the Pima Indian Diabetes Dataset. Multiple models including Logistic Regression, Decision Tree, Naive Bayes, Support Vector Machine, and Random Forest were evaluated. The Random Forest model showed the best performance in terms of accuracy, precision, recall, and ROC-AUC. The results demonstrate the potential of machine learning-based approaches for early diagnosis and risk prediction of diabetes.
-</p>
-
-<h2>Keywords</h2>
-<p>Diabetes mellitus, Machine learning, Random Forest, Risk prediction, Integrative biology</p>
-
-<h2>Introduction</h2>
-<p>
-Diabetes mellitus is one of the most prevalent non-communicable diseases worldwide, affecting millions of individuals. Early detection is crucial to prevent complications such as cardiovascular diseases and neuropathy. Traditional diagnostic methods, though effective, are often invasive and resource-intensive. Machine learning offers a scalable alternative for early risk prediction using clinical data.
-</p>
-
-<h2>Materials and Methods</h2>
-<p>
-The study used the Pima Indian Diabetes Dataset consisting of 768 samples. Data preprocessing included handling missing values and normalization. Five supervised machine learning models were implemented and evaluated using standard performance metrics including accuracy, precision, recall, F1-score, and ROC-AUC.
-</p>
-
-<h2>Results</h2>
-<p>
-Among all models, Random Forest achieved the highest accuracy (81.6%) and demonstrated superior performance across evaluation metrics. Feature importance analysis revealed plasma glucose level as the most significant predictor, followed by BMI and age.
-</p>
-
-<h2>Discussion</h2>
-<p>
-The results highlight the effectiveness of ensemble-based machine learning techniques in disease prediction. Random Forest outperformed other models due to its robustness and ability to handle complex data patterns. These findings support the integration of machine learning tools in clinical decision-making.
-</p>
-
-<h2>Conclusion</h2>
-<p>
-Machine learning models, particularly Random Forest, provide an effective approach for early diabetes risk prediction. Future work should focus on expanding datasets and integrating real-world clinical applications.
-</p>
-
-<h2>References</h2>
-<p>
-(Include full reference list as in PDF)
-</p>
-
-<a href="paper2.pdf" class="download-btn">Download Full PDF</a>
-
-<p><a href="../archive.html">← Back to Issue</a></p>
-
+<div class="brand">
+  <b>JAIB</b>
+  <div class="subtitle-lines">An International Multidisciplinary Life Sciences Journal</div>
 </div>
 
-</body>
-</html>
+<main><div class="type">Research Article</div><h1>Predicting Diabetes Using Machine Learning Approaches</h1>
+<div class="authors">Ratna Rathaur, Shivam Pandey, Ashutosh Mani*</div><div class="affil">Department of Biotechnology Motilal Nehru National Institute of Technology Allahabad, INDIA</div><div class="affil">*Corresponding author: amani@mnnit.ac.in</div>
+<div class="meta-grid"><div><strong>ISSN:</strong> 3139-1567 (Online)<br><strong>Volume:</strong> 1 &nbsp; <strong>Issue:</strong> 1 (July-December, 2025)</div>
+<div><strong>Received:</strong> 12.11.2025<br><strong>Accepted:</strong> 22.12.2025<br><strong>Published:</strong> 26.12.2025</div></div>
+<div class="abstract"><h2 style="margin-top:0">Abstract</h2><p>Diabetes mellitus is a chronic metabolic disorder and a major public health threat, especially in developing countries like India. Early detection of diabetes may be helpful in preventing long-term complications including cardiovascular disease, nephropathy, neuropathy, and retinopathy in patients. In this study, machine learning (ML) techniques were used to develop a model for predicting early diabetes risk assessment using routinely collected clinical parameters. The widely used Pima Indian Diabetes Dataset obtained from the National Institute of Diabetes and Digestive and Kidney Diseases was used in this work. Several supervised ML algorithms, including Logistic Regression, Decision Tree, Naive Bayes, Support Vector Machine, and Random Forest, were used for prediction and were later evaluated. Model performance was assessed by using accuracy, precision, recall, F1-score, and ROC–AUC. Among the estimated models, the Random Forest classifier demonstrated superior performance with significantly balanced sensitivity and specificity. These findings highlight the potential of ML-based decision support systems for prediction of early diabetes prediction by using clinical data. This approach aligns with the principles of integrative and computational biology for disease diagnosis and treatment.</p><p><strong>Keywords:</strong> Diabetes mellitus, Machine learning, Random Forest, Risk prediction, Integrative biology</p></div>
+<h2>Introduction</h2><p>One of the most common non-communicable diseases in the world is diabetes mellitus. It impacts over 537 million adults in the world, and the burden is increasing rapidly in India [1,2]. T2DM causes about 90 out of all cases of diabetes and has strong links with lifestyle-associated factors (obesity, lack of physical activity, and improper diet) [3]. Late detection of T2DM normally causes various complications such as cardiovascular diseases, kidney failure, neuropathy, and vision loss.</p><p>The conventional diagnostic approaches are based on biochemical tests like fasting plasma glucose and oral glucose tolerance tests and glycated hemoglobin (HbA1c). On the one hand, these approaches are quite effective, but on the other hand, invasive, necessitate clinical facilities, and are not available to many population groups [4]. This has led to the increased demand of alternative data-driven and cost effective methods that have the potential of supporting the prediction of diabetes risks at an early and scalable stage.</p><p>The latest developments in the field of artificial intelligence and machine learning have made it possible to analyze more complex biomedical data and reveal hidden patterns related to the development of diseases [5,6]. The machine learning algorithms have demonstrated promising results in predicting chronic diseases, such as diabetes, through the combination of several risk factors at once [7]. The scope of the research is to assess and compare several ML models to predict diabetes and select the most useful method to assess the patient at risk in the early stages of the disease.</p><h2>Materials and Methods</h2><h3>Dataset Description</h3><p>The dataset used in this study was obtained from the National Institute of Diabetes and Digestive and Kidney Diseases and is publicly available for research purposes [8]. The dataset consists of 768 female patients of Pima Indian heritage aged 21 years or older. Among them, 268 individuals were diagnosed with diabetes, while 500 were non-diabetic. The dataset includes eight clinical features: number of pregnancies, plasma glucose concentration, diastolic blood pressure, triceps skinfold thickness, serum insulin level, body mass index (BMI), diabetes pedigree function, and age.</p><h3>Data Preprocessing</h3><p>Data preprocessing was performed to enhance data quality and model performance. Zero values in biologically implausible attributes such as glucose, blood pressure, skin thickness, insulin, and BMI were treated as missing values and replaced using statistical imputation techniques [9]. Feature scaling was performed using Min–Max normalization to ensure uniform contribution of all features during model training.</p><h3>Machine Learning Models</h3><p>Five supervised machine learning algorithms were implemented: Logistic Regression, Decision Tree, Naive Bayes, Support Vector Machine, and Random Forest. These algorithms were selected based on their widespread application in biomedical classification tasks [6,7]. The dataset was split into training (80%) and testing (20%) subsets.</p><h3>Model Evaluation</h3><p>Model performance was evaluated using accuracy, precision, recall, F1-score, and receiver operating characteristic area under the curve (ROC–AUC). These metrics provide a comprehensive assessment of model reliability, particularly for medical diagnosis where minimizing false negatives is critical [10].</p><h2>Results</h2><h3>Model Performance Comparison</h3><p>The performance of all implemented machine learning models was evaluated on the test dataset. The Random Forest classifier achieved the highest overall accuracy and F1-score, followed by Decision Tree and Naive Bayes models. Logistic Regression and Support Vector Machine showed comparatively lower predictive performance.</p><h3>Feature Importance Analysis</h3><p>Feature importance analysis performed using the Random Forest model indicated that plasma glucose concentration was the most significant predictor of diabetes risk, followed by body mass index (BMI), age, and diabetes pedigree function.</p><h3>Receiver Operating Characteristic (ROC) Analysis</h3><p>The ROC curve analysis demonstrated that the Random Forest model achieved the highest area under the curve (AUC), indicating superior discriminative ability compared to other classifiers.</p><table><thead><tr><th>Model</th><th>Accuracy (%)</th><th>Precision</th><th>Recall</th><th>F1-score</th><th>ROC–AUC</th></tr></thead><tbody><tr><td>Logistic Regression</td><td>74.1</td><td>0.72</td><td>0.70</td><td>0.71</td><td>0.78</td></tr><tr><td>Decision Tree</td><td>76.8</td><td>0.75</td><td>0.74</td><td>0.74</td><td>0.81</td></tr><tr><td>Naive Bayes</td><td>75.9</td><td>0.74</td><td>0.73</td><td>0.73</td><td>0.80</td></tr><tr><td>Support Vector Machine</td><td>73.5</td><td>0.71</td><td>0.69</td><td>0.70</td><td>0.77</td></tr><tr><td>Random Forest</td><td>81.6</td><td>0.80</td><td>0.79</td><td>0.79</td><td>0.87</td></tr></tbody></table><div class="table-caption">Table 1. Performance comparison of machine learning models for diabetes prediction.</div><h2>Discussion</h2><p>These findings highly show the utility of machine learning methods in early diagnosis of diabetic conditions and risk forecasting with available clinical records in the public. The excellent effect of the performance of the Random Forest model can be credited to its learning mechanism, which improves robustness and lowers the overfitting [11]. The results are in line with the findings of other researchers who have carried out studies with regard to the efficacy of ensemble-based techniques in predicting chronic diseases [12,13].</p><p>The clinical use of ML-based diabetes predictors models on healthcare systems can assist clinicians in the early diagnosis and individual interventions. Nevertheless, the constraints of population particularity and absence of longitudinal data should be discussed in the future studies. The use of lifestyle, genetic and biochemical markers can also enhance predictive accuracy.</p><h2>Conclusion</h2><p>This study highlights the potential of machine learning techniques for early and non-invasive diabetes risk prediction. Among different evaluated models, the Random Forest classifier method demonstrated to have relatively superior and balanced performance. The proposed approach combines clinical data with computational intelligence and may contribute to improved preventive healthcare strategies. Future work should focus on expanding dataset diversity and deploying ML models in real-world clinical and web-based applications.</p><h2>References</h2><ol><li>International Diabetes Federation. IDF Diabetes Atlas, 10th ed.&nbsp;Brussels; 2021.</li><li>Anjana RM, et al.&nbsp;Prevalence of diabetes in India. Lancet Diabetes Endocrinol. 2017;5:585–596.</li><li>DeFronzo RA, et al.&nbsp;Type 2 diabetes mellitus. Nat Rev Dis Primers. 2015;1:15019.</li><li>American Diabetes Association. Standards of medical care in diabetes. Diabetes Care. 2022;45:S1–S264.</li><li>Deo RC. Machine learning in medicine. Circulation. 2015;132:1920–1930.</li><li>Rajkomar A, et al.&nbsp;Machine learning in medicine. N Engl J Med. 2019;380:1347–1358.</li><li>Kavakiotis I, et al.&nbsp;Machine learning and data mining in diabetes research. Comput Struct Biotechnol J. 2017;15:104–116.</li><li>Smith JW, et al.&nbsp;Using the ADAP learning algorithm to forecast diabetes. Proc Symp Comput Appl Med Care. 1988:261–265.</li><li>Little RJA, Rubin DB. Statistical analysis with missing data. Wiley; 2019.</li><li>Powers DM. Evaluation: From precision, recall and F-measure to ROC. J Mach Learn Technol. 2011;2:37–63.</li><li>Breiman L. Random forests. Mach Learn. 2001;45:5–32.</li><li>Weng SF, et al.&nbsp;Cam Machine-learning improve cardiovascular risk prediction using routine clinical data? PLoS One. 2017;12:e0174944.</li><li>Dritsas E, Trigka M. Data-driven ML for diabetes prediction. Sensors. 2022;22:239.</li></ol>
+<footer class="license">© 2025 The Authors. Published by Journal of Applied and Integrative Biology. This article is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0) License</a>.</footer>
+</main></body></html>
